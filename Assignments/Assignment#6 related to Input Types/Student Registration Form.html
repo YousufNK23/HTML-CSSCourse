@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+
+    <style>
+        label {
+            margin: 120px;
+
+        }
+
+        textarea {
+            margin-left: 120px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="StudentRegistrationForm.html" style="border: solid black;
+    background-color: royalblue;">
+        <h1 style="margin-left: 155px;
+    color: black;"><b><u>STUDENT REGISTRATION FORM</u></b></h1>
+
+        <label for="fn"><b><u>FIRST NAME</u></b></label>
+        <input type="text" name="" id="fn" placeholder="FIRST NAME"> <small>(max 30 characters a-z and A-Z)</small>
+        <br>
+        <br>
+
+        <label for="ln"><b><u>LAST NAME</u></b></label>
+        <input type="text" name="" id="ln" placeholder="LAST NAME"> <small>(max 30 characters a-z and A-Z)</small>
+        <br>
+        <br>
+
+        <label for="dob"><b><u>DATE OF BIRTH</u></b></label>
+        <input type="date" name="" id="dob" placeholder="DATE OF BIRTH">
+        <br>
+        <br>
+
+        <label for="email"><b><u>EMAIL ID</u></b></label>
+        <input type="email" name="" id="email" placeholder="EMAIL">
+        <br>
+        <br>
+
+        <label for="mn"><b><u>MOBILE NUMBER</u></b></label>
+        <input type="number" name="" id="mn" placeholder="MOBILE NUMBER"> <small>(10 digit number)</small>
+        <br>
+        <br>
+
+        <label for="gen"><b><u>GENDER</u></b></label>
+        Male<input type="radio" name="gen" id="gen">
+        Female<input type="radio" name="gen" id="gen">
+        <br>
+        <br>
+
+        <label for="address"> <b><u> ADDRESS </u></b> </label>
+        <br>
+        <textarea name="" id="address" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+
+        <label for="city"><b><u>CITY</u>
+            </b></label>
+        <input type="text" name="" id="city" placeholder="CITY"> <small>(max 30 characters a-z and A-Z)</small>
+        <br>
+        <br>
+
+        <label for="pc"><b><u>PIN CODE</u></b></label>
+        <input type="text" name="" id="pc" placeholder="PIN CODE"> <small>(6 digit number)</small>
+        <br>
+        <br>
+
+        <label for="state"><b><u>STATE</u></b></label>
+        <input type="text" name="" id="state" placeholder="STATE"> <small>(max 30 characters a-z and A-Z)</small>
+        <br>
+        <br>
+
+        <label for="country"><b><u>COUNTRY</u></b></label>
+        <input type="text" name="" id="country" placeholder="COUNTRY">
+        <br>
+        <br>
+
+        <label for="hobbies"><b><u>HOBBIES</u></b></label>
+        Drawing<input type="radio" name="hobbies" id="">
+        Singing<input type="radio" name="hobbies" id="">
+        Dancing<input type="radio" name="hobbies" id="">
+        Sketching<input type="radio" name="hobbies" id="">
+        Others<input type="radio" name="hobbies" id="">
+        <input type="text" name="" id="hobbies">
+        <br>
+        <br>
+
+        <table style="margin-left: 120px;">
+            <thead>
+                <tr>
+                    <th><u>QUALIFICATION</u></th>
+                    <th><small>SI.NO</small></th>
+                    <th><small>EXAMINATION</small></th>
+                    <th><b>BOARD</b></th>
+                    <th><b>PERCENTAGE</b></th>
+                    <th><b>YEAR OF PASSING</b></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>1.</td>
+                    <td>Class X</td>
+                    <td><input type="text" name="" id="board"></td>
+                    <td><input type="text" name="" id="percentage"></td>
+                    <td><input type="text" name="" id="yearofpassing"></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>2.</td>
+                    <td>Class XII</td>
+                    <td><input type="text" name="" id="board"></td>
+                    <td><input type="text" name="" id="percentage"></td>
+                    <td><input type="text" name="" id="yearofpassing"></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>3.</td>
+                    <td>Graduation</td>
+                    <td><input type="text" name="" id="board"></td>
+                    <td><input type="text" name="" id="percentage"></td>
+                    <td><input type="text" name="" id="yearofpassing"></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>4.</td>
+                    <td>Masters</td>
+                    <td><input type="text" name="" id="board"></td>
+                    <td><input type="text" name="" id="percentage"></td>
+                    <td><input type="text" name="" id="yearofpassing"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><small style="margin-left: 50px;">(10 char max)</small></td>
+                    <td><small style="margin-left: 50px;">(upto 2 decimal)</small></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+
+        <label for="caf"><b>COURSES APPLIED FOR</b></label>
+        BCA<input type="radio" name="caf" id="">
+        B.Com<input type="radio" name="caf" id="">
+        B.Sc<input type="radio" name="caf" id="">
+        B.A<input type="radio" name="caf" id="">
+        <br>
+        <br>
+
+        <input type="submit" value="Submit" style="margin-top: 20px;
+    margin-left: 420px;">
+        <input type="reset" value="Reset">
+        <br>
+        <br>
+    </form>
+</body>
+
+</html>
